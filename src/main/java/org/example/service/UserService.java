@@ -17,10 +17,10 @@ public class UserService {
     Repository<User> repository = new UserRepository();
 
     public User giveMeUser(Long id, String login, String password) {
-//        logger.debug(">>> METHOD 'GIVE ME USER' BEGINS");
-//        logger.info(">>> METHOD 'GIVE ME USER' BEGINS");
-//        logger.warn(">>> METHOD 'GIVE ME USER' BEGINS");
-//        logger.error(">>> METHOD 'GIVE ME USER' BEGINS");
+        logger.debug(">>> METHOD 'GIVE ME USER' BEGINS");
+        logger.info(">>> METHOD 'GIVE ME USER' BEGINS");
+        logger.warn(">>> METHOD 'GIVE ME USER' BEGINS");
+        logger.error(">>> METHOD 'GIVE ME USER' BEGINS");
         logger.fatal(">>> METHOD 'GIVE ME USER' BEGINS");
 
         User user = null;
